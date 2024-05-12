@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background:linear-gradient(135deg, #26bb93,#513ecf);
+}
+#HEADING{
+    font-size: 35PX;
+    color: WHITE;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-style: italic;
+
+}
+.CONTAINER{
+    background-color: ivory;
+    height:10rem;
+    width: 30rem;
+    align-items: center;
+    float: right;
+    margin-right: 30%;
+    margin-top: 5%;
+    border-radius: 5%;
+    background:rgb(255,255,255,0.3);
+}
+.AGE{
+    margin-top: 10%;
+    margin-left:8%;
+    padding: 3PX 3PX 2PX 2PX;
+    display: block;
+    margin-right:40%;
+   
+}
+.AGE INPUT{
+    flex: 1;
+    padding: 10PX 10PX;
+    border: 0;
+    font-size: 20PX;
+    border-radius: 5PX;
+    position: relative;
+    width: 13rem;
+
+}
+
+
+#BTN{
+float: right;
+margin-right:-50%;
+padding:10PX;
+font-size: 16PX;
+color: BLACK;
+background-color:yellow;
+cursor: pointer;
+margin-top: 2%;
+border-radius: 5PX;
+
+}
+.AGE input::-Webkit-calendar-picker-indicator{
+    top: 5px;
+    left:12rem;
+    right:0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+background-color: calc(100%, -10PX);
+background-size: 30PX;
+cursor: pointer;
+}
+
+#PARA{
+    margin-top: 20%;
+    font-size: 30PX;
+    color: WHITE;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: italic;
+    padding: 2PX;
+    padding-bottom: 15%;
+}
